@@ -1,7 +1,6 @@
 nginx
 justsong/one-api
 redis
-redis:lts
 mysql
 mysql:lts
 mariadb
