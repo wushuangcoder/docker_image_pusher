@@ -7,6 +7,11 @@ mariadb
 mariadb:lts
 jenkins/jenkins
 jenkins/jenkins:lts-jdk17
+# jdk
+bellsoft/liberica-openjdk-alpine:8
+bellsoft/liberica-openjdk-alpine:11
+bellsoft/liberica-openjdk-alpine:17
+bellsoft/liberica-openjdk-alpine:21
 #支持私库
 # k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 # xhofe/alist:latest
