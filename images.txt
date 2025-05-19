@@ -26,6 +26,7 @@ bellsoft/liberica-openjdk-alpine:17
 bellsoft/liberica-openjdk-alpine:21
 
 # linux
+ubuntu:20.04
 ubuntu:24.04
 debian:latest
 alpine:latest
