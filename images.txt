@@ -4,7 +4,6 @@
 #支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
 
-
 nginx
 justsong/one-api
 redis
@@ -21,7 +20,7 @@ jenkins/jenkins:lts-jdk17
 
 # jdk
 bellsoft/liberica-openjdk-alpine:8
-bellsoft/liberica-openjdk-alpine:11
+bellsoft/liberica-openjdk-alpine:11ghcr.io/kafbat/kafka-ui
 bellsoft/liberica-openjdk-alpine:17
 bellsoft/liberica-openjdk-alpine:21
 
@@ -35,3 +34,7 @@ alpine:latest
 nvidia/cuda:11.7.1-base-ubuntu20.04
 nvidia/cuda:11.7.1-runtime-ubuntu20.04
 nvidia/cuda:12.9.0-runtime-ubuntu24.04
+
+# kafka
+ghcr.io/kafbat/kafka-ui
+apache/kafka:latest
