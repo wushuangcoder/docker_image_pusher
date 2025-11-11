@@ -39,3 +39,7 @@ nvidia/cuda:12.9.0-runtime-ubuntu24.04
 # kafka
 ghcr.io/kafbat/kafka-ui
 apache/kafka:latest
+
+
+# python
+python:3.12-slim
