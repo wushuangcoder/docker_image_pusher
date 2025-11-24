@@ -43,3 +43,8 @@ apache/kafka:latest
 
 # python
 python:3.12-slim
+
+
+# flink
+flink:2.1-java21
+flink:1.20-java8
