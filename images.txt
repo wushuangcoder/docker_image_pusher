@@ -52,3 +52,6 @@ flink:1.20-java8
 # git
 alpine/git:latest
 alpine/git:v2.34.2
+
+# elasticsearch
+docker.elastic.co/elasticsearch/elasticsearch:8.18.8
