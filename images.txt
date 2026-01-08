@@ -4,8 +4,19 @@
 #支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
 
+# elasticsearch
+docker.elastic.co/elasticsearch/elasticsearch:8.18.8
+docker.elastic.co/elasticsearch/elasticsearch:9.2.3
+# kibana
+docker.elastic.co/kibana/kibana:9.2.3
+
+# nginx
 nginx
+
+# one-api
 justsong/one-api
+
+# redis
 redis
 
 # mysql
@@ -51,10 +62,3 @@ flink:1.20-java8
 
 # git
 alpine/git:latest
-alpine/git:v2.34.2
-
-# elasticsearch
-docker.elastic.co/elasticsearch/elasticsearch:8.18.8
-docker.elastic.co/elasticsearch/elasticsearch:latest
-# kibana
-docker.elastic.co/kibana/kibana:latest
