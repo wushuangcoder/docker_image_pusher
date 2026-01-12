@@ -30,10 +30,19 @@ jenkins/jenkins
 jenkins/jenkins:lts-jdk17
 
 # jdk
+## alpine不支持图形库
 bellsoft/liberica-openjdk-alpine:8
-bellsoft/liberica-openjdk-alpine:11
 bellsoft/liberica-openjdk-alpine:17
-bellsoft/liberica-openjdk-alpine:21
+## debian
+bellsoft/liberica-openjdk-debian:latest
+bellsoft/liberica-openjdk-debian:latest-cds
+bellsoft/liberica-openjdk-debian:21
+bellsoft/liberica-openjdk-debian:21-cds
+bellsoft/liberica-openjdk-debian:17
+bellsoft/liberica-openjdk-debian:17-cds
+bellsoft/liberica-openjdk-debian:11
+bellsoft/liberica-openjdk-debian:8
+bellsoft/liberica-openjdk-debian:8-cds
 
 # linux
 ubuntu:20.04
