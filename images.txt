@@ -43,6 +43,9 @@ bellsoft/liberica-openjdk-debian:17-cds
 bellsoft/liberica-openjdk-debian:11
 bellsoft/liberica-openjdk-debian:8
 bellsoft/liberica-openjdk-debian:8-cds
+## bellsoft自研运行时
+bellsoft/hardened-liberica-runtime-container:jdk-all-glibc
+bellsoft/hardened-liberica-runtime-container:jre-glibc
 
 # linux
 ubuntu:20.04
