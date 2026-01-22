@@ -4,9 +4,12 @@
 #支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
 
+# go
+ubuntu/go:1.22-24.04_stable
+golang:1.24
+
 # hertzbeat（时观测系统。指标日志统一收集，告警一站分发，智能管控分析）
 apache/hertzbeat
-
 
 # elasticsearch
 docker.elastic.co/elasticsearch/elasticsearch:8.18.8
