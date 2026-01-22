@@ -4,6 +4,9 @@
 #支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
 
+# pdf2htmlex
+pdf2htmlex/pdf2htmlex:0.18.8.rc2-master-20200820-ubuntu-20.04-x86_64
+
 # go
 ubuntu/go:1.22-24.04_stable
 golang:1.24
