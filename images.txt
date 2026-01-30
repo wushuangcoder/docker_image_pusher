@@ -8,7 +8,7 @@
 linuxserver/libreoffice:25.8.1
 linuxserver/libreoffice:latest
 
-# pdf2htmlex
+# pdf2htmlex(官方镜像)
 pdf2htmlex/pdf2htmlex:0.18.8.rc2-master-20200820-ubuntu-20.04-x86_64
 
 # go
