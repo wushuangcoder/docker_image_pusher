@@ -4,6 +4,9 @@
 #支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
 
+# 使用libreoffice转pdf
+gotenberg/gotenberg:latest
+
 # libreoffice
 linuxserver/libreoffice:25.8.1
 linuxserver/libreoffice:latest
