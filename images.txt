@@ -4,6 +4,9 @@
 #支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
 
+# milvus
+milvusdb/milvus:v2.6.10
+
 # minio
 minio/minio:latest
 
