@@ -6,6 +6,7 @@
 
 # milvus
 milvusdb/milvus:v2.6.10
+milvusdb/milvus-operator:v1.3.5
 
 # minio
 minio/minio:latest
