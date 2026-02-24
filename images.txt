@@ -5,6 +5,7 @@
 # --platform=linux/arm64 xiaoyaliu/alist
 
 # milvus
+zilliz/attu:latest
 milvusdb/milvus:v2.6.10
 milvusdb/milvus-operator:v1.3.5
 milvusdb/etcd:3.5.25-r1
