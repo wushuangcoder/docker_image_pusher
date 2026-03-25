@@ -4,6 +4,11 @@
 #支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
 
+# flink
+apache/flink:java21
+apache/flink
+flink:1.20-java8
+
 # clickhouse
 clickhouse:lts
 
@@ -100,11 +105,6 @@ apache/kafka:latest
 
 # python
 python:3.12-slim
-
-
-# flink
-flink:2.1-java21
-flink:1.20-java8
 
 # git
 alpine/git:latest
