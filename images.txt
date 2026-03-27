@@ -22,6 +22,9 @@ minio/minio:RELEASE.2024-12-18T13-15-44Z
 # minio
 minio/minio:latest
 
+# rustfs
+rustfs/rustfs:latest
+
 # postgres
 postgres:latest
 
