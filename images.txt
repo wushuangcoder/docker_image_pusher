@@ -4,6 +4,17 @@
 #支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
 
+
+# 使用libreoffice转pdf
+gotenberg/gotenberg:latest
+
+# libreoffice
+linuxserver/libreoffice:25.8.1
+linuxserver/libreoffice:latest
+
+# pdf2htmlex(官方镜像)
+pdf2htmlex/pdf2htmlex:0.18.8.rc2-master-20200820-ubuntu-20.04-x86_64
+
 # flink
 apache/flink:java21
 apache/flink
@@ -27,17 +38,6 @@ rustfs/rustfs:latest
 
 # postgres
 postgres:latest
-
-
-# 使用libreoffice转pdf
-gotenberg/gotenberg:latest
-
-# libreoffice
-linuxserver/libreoffice:25.8.1
-linuxserver/libreoffice:latest
-
-# pdf2htmlex(官方镜像)
-pdf2htmlex/pdf2htmlex:0.18.8.rc2-master-20200820-ubuntu-20.04-x86_64
 
 # go
 ubuntu/go:1.22-24.04_stable
