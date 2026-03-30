@@ -4,6 +4,9 @@
 #支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
 
+# docling 读取文档工具
+ghcr.io/docling-project/docling-serve-cpu
+ghcr.io/docling-project/docling-serve
 
 # 使用libreoffice转pdf
 gotenberg/gotenberg:latest
