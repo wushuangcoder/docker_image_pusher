@@ -69,7 +69,12 @@ docker.elastic.co/elasticsearch/elasticsearch:9.2.3
 docker.elastic.co/kibana/kibana:9.2.3
 
 # nginx
-nginx
+# 新特性版
+nginx:latest
+# 稳定版
+nginx:stable
+
+nginx:trixie  
 
 # one-api
 justsong/one-api
