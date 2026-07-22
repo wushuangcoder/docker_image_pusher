@@ -68,13 +68,19 @@ docker.elastic.co/elasticsearch/elasticsearch:9.2.3
 # kibana
 docker.elastic.co/kibana/kibana:9.2.3
 
-# nginx
+# nginx-mainline
 # 新特性版
 nginx:latest
+# 内置 OpenTelemetry 模块
+nginx:otel
+# 极简 Alpine 版
+nginx:alpine
+
+# nginx-stable
 # 稳定版
 nginx:stable
-
-nginx:trixie  
+# alpine镜像（推荐部署）
+nginx:stable-alpine
 
 # one-api
 justsong/one-api
