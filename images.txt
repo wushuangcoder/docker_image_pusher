@@ -4,6 +4,10 @@
 #支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
 
+# rabbitmq
+rabbitmq:management
+ubuntu/rabbitmq:4.0-26.04_stable
+
 # ros2
 osrf/ros:lyrical-desktop-full
 osrf/ros:humble-desktop-full
