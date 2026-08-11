@@ -56,8 +56,9 @@ minio/minio:latest
 # rustfs
 rustfs/rustfs:latest
 
-# postgres
+# postgres (不同版本之间数据格式不兼容)
 postgres:latest
+postgres:18
 
 # go
 golang:1.24
