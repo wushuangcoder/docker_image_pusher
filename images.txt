@@ -6,15 +6,13 @@
 
 # authentik （自托管的开源身份提供方）
 ## 核心 server + worker(共用)
-ghcr.io/goauthentik/server:latest
+ghcr.io/goauthentik/server:2026.5.6
 ## Proxy outpost(给应用加 SSO 保护的反向代理) 
-ghcr.io/goauthentik/proxy:latest
+ghcr.io/goauthentik/proxy:2026.5.6
 ## LDAP outpost(对接 LDAP 目录/客户端) 
-ghcr.io/goauthentik/ldap:latest
+ghcr.io/goauthentik/ldap:2026.5.6
 ## RADIUS outpost(网络设备 802.1X 认证) 
-ghcr.io/goauthentik/radius:latest
-## RAC outpost(远程桌面/SSH 网关) 
-ghcr.io/goauthentik/rac:latest
+ghcr.io/goauthentik/radius:2026.5.6
 
 
 # rabbitmq
