@@ -68,8 +68,10 @@ milvusdb/milvus-operator:v1.3.5
 milvusdb/etcd:3.5.25-r1
 minio/minio:RELEASE.2024-12-18T13-15-44Z
 
-# minio
-minio/minio:latest
+# minio已死，dockerhub已不提供minio镜像
+# 改用由国内开发者老冯 Fork 了 MinIO 最后开源版本，恢复了控制台、重建了分发渠道的版本
+# 网站：https://silo.pgsty.com/zh/
+pgsty/silo:latest
 
 # rustfs
 rustfs/rustfs:latest
