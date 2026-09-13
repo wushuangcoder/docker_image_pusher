@@ -4,6 +4,8 @@
 #支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
 
+# 酒馆
+ghcr.io/sillytavern/sillytavern:latest
 
 # mqtt 开源broken
 emqx/emqx:latest
